@@ -174,3 +174,177 @@ position: relative; }
 
 /* about me end */
 
+/* update 2022*/
+
+
+.menu .text {
+  margin-left: 10%;
+  position: absolute;
+  display: block;
+  position: absolute;
+  top: 20%;
+  z-index: 2;
+}
+
+.menu .text .top_text {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.menu .text .center_text {
+  font-size: 59px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.menu .text .bottom_text {
+  font-size: 30px;
+}
+
+/* my_info */
+.menu .my_info {
+  z-index: 2;
+  position: absolute;
+}
+
+.photo_frame {
+  position: relative;
+  border: 8px solid;
+  height: 75vh;
+  border-radius: 10px;
+}
+
+.photo_frame .photo img {
+  width: 100%;
+  height: 74vh;
+  object-fit: cover;
+  position: absolute;
+  right: 3vw;
+  bottom: 2vh;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+
+.my_info{
+  margin-top: 20px;  
+}
+
+.my_info button{
+  margin-right: 5px;
+  border-radius: 0;
+  padding: 3px;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.my_info button:hover{
+  /* color: white !important; */
+  /* background: rgba(0,0,0,0.8); */
+  padding: 3px;
+  border-radius: 3px;
+  border-bottom: none;
+}
+
+
+/*About me*/
+.about_me {
+  margin-top: 60px;
+}
+
+.about_me .title {
+  margin-bottom: 30px;
+}
+
+.about_me .portfolio {
+  border-left: 1px solid;
+}
+
+.about_text {
+  padding-left: 5px;
+}
+
+.size_32 {
+  font-size: 32px;
+}
+
+.size_24 {
+  font-size: 24px;
+}
+
+.size_26 {
+  font-size: 26px;
+}
+
+.size_34 {
+  font-size: 34px;
+}
+
+.size_22 {
+  font-size: 22px;
+}
+
+.size_25 {
+  font-size: 25px;
+}
+
+.size_45 {
+  font-size: 45px;
+}
+
+
+
+
+/* Mobile Optimization */
+@media(max-width: 812px){
+  
+  .container{
+    padding: 1%;
+  }
+  
+  .photo_frame .photo img{
+    height: 30vh;
+  }
+  
+  .photo_frame{
+    height: 30vh;
+    border: 5px solid;
+  }
+  
+  .menu{
+    padding: 0px;
+    margin: 1rem;
+  }
+  
+  .menu .text{
+    padding: 0px;
+    margin-left: 1%;
+  }
+  
+  .menu .text .top_text{
+    font-size: 13px;
+  }
+  
+  .menu .text .center_text{
+    font-size: 28px;
+  }
+  
+  .menu .text .bottom_text{
+    font-size: 15px;
+  }
+  
+  .my_info button{
+    font-size: 11px;
+    font-weight:bold;
+  }
+  
+  .about_me .about_text{
+    font-size: 12px;
+  }
+}
+
+
+/* update 2022*/
